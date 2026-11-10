@@ -10,6 +10,7 @@ from . import storage
 
 
 def configure(address,password):
+    if os.getenv('DEMO_PUBLIC')=='1':raise ValueError('Account connections are disabled in the public demo.')
     if not isinstance(address,str) or not valid_email(address.strip()):
         raise ValueError('Enter your full Gmail address.')
     address=address.strip()
@@ -39,6 +40,7 @@ def configure(address,password):
 
 
 def test_connection():
+    if os.getenv('DEMO_PUBLIC')=='1':raise ValueError('Account connections are disabled in the public demo.')
     cfg=settings()
     if not cfg['configured'] or os.getenv('SMTP_HOST')!='smtp.gmail.com':
         raise ValueError('Save your Gmail connection first.')

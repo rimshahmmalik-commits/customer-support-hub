@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: customer-support-hub-demo
+    runtime: docker
+    plan: free
+    branch: live-demo
+    dockerfilePath: ./Dockerfile.demo
+    healthCheckPath: /healthz
+    envVars:
+      - key: DEMO_PUBLIC
+        value: "1"
+      - key: DEMO_HTTPS
+        value: "1"
+      - key: DEMO_ENABLE_OPENAI
+        value: "0"

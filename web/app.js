@@ -109,7 +109,7 @@ async function renderEvents(){
  const events=await api('/api/events');$('#events').innerHTML=events.length?events.map(row=>`<article class="event"><div class="meta">${esc(row.at)} · ${esc(row.case_id||'No case created')}</div><h3>${esc(label(row.action))}</h3><details><summary>Inspect the recorded details</summary><pre>${esc(JSON.stringify(JSON.parse(row.details),null,2))}</pre></details></article>`).join(''):'<article class="card"><p class="hint">No decisions recorded yet. New submissions and reviews will appear here.</p></article>';
 }
 (async()=>{
- try{config=await api('/api/config');if(config.app_version!=='2026.11.11.2'){throw new Error('An older Customer Support Hub server is running. Stop the old app process and start this updated installation before uploading or triaging.');}$('#product').innerHTML='<option value="">Not specified</option>'+config.products.map(x=>`<option>${esc(x)}</option>`).join('');$('#model').value=config.model;$('#key-status').textContent=config.key_configured?'A server-side API key is configured. You can leave this field blank.':'No server-side key detected. Enter a key here, or add it privately to .env.';await refreshCases();renderEmailConfig();await openPage('dashboard');}
+ try{config=await api('/api/config');if(config.app_version!=='2026.11.11.2'){throw new Error('An older Customer Support Hub server is running. Stop the old app process and start this updated installation before uploading or triaging.');}$('#product').innerHTML='<option value="">Not specified</option>'+config.products.map(x=>`<option>${esc(x)}</option>`).join('');$('#model').value=config.model;$('#key-status').textContent=config.key_configured?'A server-side API key is configured. You can leave this field blank.':'No server-side key detected. Enter a key here, or add it privately to .env.';if(config.public_demo)enablePublicDemo();await refreshCases();renderEmailConfig();await openPage('dashboard');}
  catch(e){error(e.message);}
 })();
 
@@ -235,3 +235,13 @@ $('#gmail-test').addEventListener('click',async()=>{
  catch(e){result.className='error';result.textContent=e.message;}
  finally{button.disabled=false;}
 });
+
+function enablePublicDemo(){
+ document.body.classList.add('demo-public');document.querySelector('#public-demo-banner').hidden=false;
+ document.querySelector('#demo-ai-note').textContent=config.key_configured?'Limited live OpenAI requests are available.':'Classification uses the offline rules engine; live OpenAI transcription is not connected.';
+ document.querySelector('.sidebar-foot').innerHTML='<span class="dot"></span> PUBLIC SANDBOX<p>Fictional data · private session<br>Resettable · email preview only</p>';
+ document.querySelector('#api-key').value='';document.querySelector('#api-key').disabled=true;
+ document.querySelector('#engine option[value="openai"]').disabled=!config.key_configured;
+ document.querySelector('#extract-image').disabled=!config.key_configured;
+ document.querySelector('#reset-demo').addEventListener('click',async()=>{if(!confirm('Reset your own demo changes and restore the fictional cases?'))return;try{await api('/api/demo/reset',{});location.reload();}catch(e){error(e.message);}});
+}

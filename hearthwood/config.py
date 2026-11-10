@@ -15,6 +15,8 @@ TEAMS = {'product_safety': 'Product Safety', 'damaged_item': 'Returns & Claims',
 
 
 def load_env():
+    if os.getenv('DEMO_PUBLIC')=='1':
+        return  # Never load a personal .env into a public deployment.
     path = ROOT / '.env'
     if path.exists():
         for line in path.read_text(encoding='utf-8-sig').splitlines():
@@ -28,4 +30,9 @@ def load_env():
 
 
 def database_path():
+    if os.getenv('DEMO_PUBLIC')=='1':
+        from .public_demo import REQUEST_DATABASE
+        path=REQUEST_DATABASE.get()
+        if path is None:raise RuntimeError('A public demo database requires a visitor session.')
+        return Path(path)
     return Path(os.getenv('HEARTHWOOD_DB', ROOT / 'runtime/hearthwood.sqlite3'))

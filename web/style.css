@@ -11,3 +11,5 @@
 #image-details-review{margin-top:18px;border-top:1px solid var(--line);padding-top:18px}.detail-suggestion{padding:12px 0;border-bottom:1px solid var(--line)}.detail-suggestion .evidence{font-size:11px}.gmail-setup{margin-top:16px;padding:14px;border:1px solid var(--line);border-radius:6px}.gmail-setup summary{color:#afd7df}.gmail-setup a{color:#71d2c8}
 
 .brand{font-size:15px;letter-spacing:-.2px;gap:10px}.brand-product{display:block;font-size:19px;line-height:1.2;margin-top:2px}.mark{width:32px;height:34px;flex-shrink:0;font-size:14px;letter-spacing:-.5px}.sidebar-note{font-size:11px;line-height:1.7;margin-top:19px}.sidebar-note span{font-size:10px;color:#91a7bb}
+
+.demo-public .gmail-setup,.demo-public #api-key,.demo-public label[for="api-key"],.demo-public #key-status,.demo-public #model,.demo-public label[for="model"]{display:none!important}#public-demo-banner{margin-top:18px;font-size:12px}#public-demo-banner .button{margin:8px 0 0 10px}

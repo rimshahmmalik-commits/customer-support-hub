@@ -17,6 +17,8 @@ def valid_email(value):
 
 
 def settings():
+    if os.getenv('DEMO_PUBLIC')=='1':
+        return {'configured':False,'sender':'support@demo.invalid','teams':{c:c+'@departments.example.invalid' for c in CATEGORIES}}
     sender = os.getenv('SMTP_FROM','').strip()
     ready = bool(os.getenv('SMTP_HOST') and os.getenv('SMTP_USER') and os.getenv('SMTP_PASSWORD') and valid_email(sender))
     teams = {category: os.getenv('TEAM_EMAIL_'+category.upper(),'').strip() for category in CATEGORIES}
@@ -79,6 +81,7 @@ def preview(case_id,kind):
 
 
 def submit(outbox_id,reviewer,acknowledged):
+    if os.getenv('DEMO_PUBLIC')=='1':raise ValueError('Email sending is disabled in this public demo. Preview only.')
     if acknowledged is not True or not isinstance(reviewer,str) or not reviewer.strip() or len(reviewer)>100:
         raise ValueError('Enter your reviewer name and confirm the recipient and message.')
     cfg=settings()
