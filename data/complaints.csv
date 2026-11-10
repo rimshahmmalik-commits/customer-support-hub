@@ -1,0 +1,76 @@
+id,date,customer,order_id,product,courier,message,true_category
+C001,2026-10-13,Emma Clarke,HW-22224,Oslo 3-seater sofa,SwiftDrop,Still waiting for my Oslo 3-seater sofa!! it's been over two weeks and tracking hasn't moved. HW-22224 We have a newborn arriving next week and this is for the nursery.,late_delivery
+C002,2026-10-14,Jack Turner,HW-88504,Oslo 3-seater sofa,SwiftDrop,the oslo 3-seater sofa has been damaged in transit - one panel is snapped. order number hw-88504. what are you going to do about it? honestly furious,damaged_item
+C003,2026-10-14,Omar Farouk,HW-71694,Malmo wardrobe,SwiftDrop,parts missing from my malmo wardrobe - only 3 of the 4 legs were in the box. hw-71694 we have a newborn arriving next week and this is for the nursery,missing_parts
+C004,2026-10-14,Zara Ahmed,HW-74251,Linden desk,ParcelPath,"Quick question about the Linden desk, the instructions don't make sense at step 6. How do I attach the back panel? Order HW-74251",assembly_help
+C005,2026-10-15,Tom Becker,HW-26704,Nordic bed frame,ParcelPath,The Nordic bed frame arrived but there is no bag of screws in the box so I can't build it. Order HW-26704.,missing_parts
+C006,2026-10-15,Omar Farouk,HW-42530,Malmo wardrobe,SwiftDrop,"My Malmo wardrobe was meant to arrive on Tuesday and there is still no sign of it. Order HW-42530. Also, you've confirmed my refund for the Malmo wardrobe twice now but I'm still waiting on the money. Order HW-42530.",late_delivery|refund_delay
+C007,2026-10-16,Priya Shah,HW-64496,Brisk coffee table,SwiftDrop,I returned my Brisk coffee table three weeks ago and I still haven't been refunded. Order HW-64496.,refund_delay
+C008,2026-10-16,Priya Shah,HW-95215,Nordic bed frame,SwiftDrop,I returned my Nordic bed frame three weeks ago and I still haven't been refunded. Order HW-95215.,refund_delay
+C009,2026-10-16,Hannah Meyer,HW-87139,Halden bookcase,ParcelPath,"I've unpacked everything and we're short of two side panels for the Halden bookcase. Ref HW-87139 Also, can someone help me put together the Halden bookcase? I can't work out which way the shelves go. HW-87139 Absolutely disgusting service.",missing_parts|assembly_help
+C010,2026-10-17,Maya Patel,HW-33405,Halden bookcase,ParcelPath,"Hi, the fittings for the Halden bookcase aren't in the box. Order HW-33405. Can you send them? If it isn't fixed I'll go to my bank.",missing_parts
+C011,2026-10-17,Sam Walker,HW-65255,Halden bookcase,SwiftDrop,where is my money back? returned the halden bookcase and nothing has hit my account. hw-65255,refund_delay
+C012,2026-10-18,Maya Patel,HW-24029,Malmo wardrobe,ParcelPath,still waiting for my malmo wardrobe!! it's been over two weeks and tracking hasn't moved. hw-24029,late_delivery
+C013,2026-10-18,Emma Clarke,HW-69692,Malmo wardrobe,SwiftDrop,This isn't what I ordered. I paid for the Malmo wardrobe and got something else entirely. HW-69692,wrong_item
+C014,2026-10-18,Grace Liu,HW-23970,Oslo 3-seater sofa,ParcelPath,This isn't what I ordered. I paid for the Oslo 3-seater sofa and got something else entirely. HW-23970,wrong_item
+C015,2026-10-18,Hannah Meyer,HW-28136,Malmo wardrobe,ParcelPath,i returned my malmo wardrobe three weeks ago and i still haven't been refunded. order hw-28136,refund_delay
+C016,2026-10-18,Luke Foster,HW-21221,Nordic bed frame,SwiftDrop,Hello?? is anyone there. I've sent three messages,vague
+C017,2026-10-19,Ben Harris,HW-37760,Nordic bed frame,SwiftDrop,"box was crushed when the driver dropped it off and the Nordic bed frame is badly scratched, order HW-37760",damaged_item
+C018,2026-10-19,Liam O'Connor,HW-90173,Halden bookcase,ParcelPath,My Halden bookcase was meant to arrive on Tuesday and there is still no sign of it. Order HW-90173.,late_delivery
+C019,2026-10-19,Omar Farouk,HW-33509,Oslo 3-seater sofa,SwiftDrop,"Hi, the fittings for the Oslo 3-seater sofa aren't in the box. Order HW-33509. Can you send them?",missing_parts
+C020,2026-10-19,Sam Walker,HW-19099,Nordic bed frame,SwiftDrop,"Hi, the fittings for the Nordic bed frame aren't in the box. Order HW-19099. Can you send them?",missing_parts
+C021,2026-10-21,Ben Harris,HW-59615,Oslo 3-seater sofa,SwiftDrop,My Oslo 3-seater sofa arrived with a huge crack down one side. Order HW-59615. Not happy at all.,damaged_item
+C022,2026-10-21,Zara Ahmed,HW-99192,Malmo wardrobe,SwiftDrop,Opened my Malmo wardrobe today and the corner is smashed. I want this sorted. HW-99192,damaged_item
+C023,2026-10-21,Jack Turner,HW-65108,Malmo wardrobe,SwiftDrop,I've unpacked everything and we're short of two side panels for the Malmo wardrobe. Ref HW-65108,missing_parts
+C024,2026-10-21,Maya Patel,HW-96356,Kensington dining table,SwiftDrop,the kensington dining table arrived but there is no bag of screws in the box so i can't build it. order hw-96356,missing_parts
+C025,2026-10-21,Emma Clarke,HW-46559,Malmo wardrobe,ParcelPath,Can someone help me put together the Malmo wardrobe? I can't work out which way the shelves go. HW-46559,assembly_help
+C026,2026-10-21,Chloe Bennett,HW-33834,Avery armchair,SwiftDrop,Very disappointed. Sort it out please. HW-33834,vague
+C027,2026-10-22,Sam Walker,HW-30289,Brisk coffee table,SwiftDrop,still waiting for my brisk coffee table!! it's been over two weeks and tracking hasn't moved. hw-30289,late_delivery
+C028,2026-10-22,Omar Farouk,HW-18981,Kensington dining table,ParcelPath,My Kensington dining table was meant to arrive on Tuesday and there is still no sign of it. Order HW-18981. Absolutely disgusting service.,late_delivery
+C029,2026-10-22,Chloe Bennett,HW-90728,Halden bookcase,SwiftDrop,Can someone help me put together the Halden bookcase? I can't work out which way the shelves go. HW-90728,assembly_help
+C030,2026-10-22,Ben Harris,HW-22196,Oslo 3-seater sofa,SwiftDrop,my order is a mess HW-22196,vague
+C031,2026-10-23,Sofia Rossi,HW-77391,Halden bookcase,SwiftDrop,"box was crushed when the driver dropped it off and the Halden bookcase is badly scratched, order HW-77391",damaged_item
+C032,2026-10-23,Maya Patel,HW-69829,Malmo wardrobe,SwiftDrop,I ordered the Malmo wardrobe but you've sent a different colour. Order HW-69829.,wrong_item
+C033,2026-10-24,Hannah Meyer,HW-75612,Kensington dining table,ParcelPath,"box was crushed when the driver dropped it off and the kensington dining table is badly scratched, order hw-75612 honestly furious",damaged_item
+C034,2026-10-24,Jack Turner,HW-35105,Malmo wardrobe,ParcelPath,"box was crushed when the driver dropped it off and the Malmo wardrobe is badly scratched, order HW-35105 Also, you've confirmed my refund for the Malmo wardrobe twice now but I'm still waiting on the money. Order HW-35105.",damaged_item|refund_delay
+C035,2026-10-25,Zara Ahmed,HW-81810,Linden desk,SwiftDrop,This isn't what I ordered. I paid for the Linden desk and got something else entirely. HW-81810,wrong_item
+C036,2026-10-25,Luke Foster,HW-93606,Malmo wardrobe,ParcelPath,"I've unpacked everything and we're short of two side panels for the Malmo wardrobe. Ref HW-93606 Also, quick question about the Malmo wardrobe, the instructions don't make sense at step 6. How do I attach the back panel? Order HW-93606",missing_parts|assembly_help
+C037,2026-10-26,Sam Walker,HW-65296,Kensington dining table,ParcelPath,still waiting for my kensington dining table!! it's been over two weeks and tracking hasn't moved. hw-65296 absolutely disgusting service,late_delivery
+C038,2026-10-26,Maya Patel,HW-33819,Brisk coffee table,SwiftDrop,I returned my Brisk coffee table three weeks ago and I still haven't been refunded. Order HW-33819.,refund_delay
+C039,2026-10-27,Ben Harris,HW-54597,Brisk coffee table,ParcelPath,The Brisk coffee table has been damaged in transit - one panel is snapped. Order number HW-54597. What are you going to do about it? This is the third time I've had to contact you. Worst experience I've had online.,damaged_item
+C040,2026-10-28,Chloe Bennett,HW-47930,Malmo wardrobe,SwiftDrop,My Malmo wardrobe arrived with a huge crack down one side. Order HW-47930. Not happy at all.,damaged_item
+C041,2026-10-28,Noah Evans,HW-72518,Linden desk,SwiftDrop,I returned my Linden desk three weeks ago and I still haven't been refunded. Order HW-72518.,refund_delay
+C042,2026-10-28,Maya Patel,HW-73993,Nordic bed frame,SwiftDrop,I returned my Nordic bed frame three weeks ago and I still haven't been refunded. Order HW-73993.,refund_delay
+C043,2026-10-28,Priya Shah,HW-71261,Kensington dining table,SwiftDrop,i returned my kensington dining table three weeks ago and i still haven't been refunded. order hw-71261,refund_delay
+C044,2026-10-29,Tom Becker,HW-18392,Malmo wardrobe,ParcelPath,the malmo wardrobe has been damaged in transit - one panel is snapped. order number hw-18392. what are you going to do about it? if it isn't fixed i'll go to my bank. this is ridiculous!!,damaged_item
+C045,2026-10-29,Noah Evans,HW-71993,Malmo wardrobe,SwiftDrop,Opened my Malmo wardrobe today and the corner is smashed. I want this sorted. HW-71993 It's a wedding gift and the wedding is on Saturday.,damaged_item
+C046,2026-10-29,Noah Evans,HW-43386,Malmo wardrobe,SwiftDrop,the malmo wardrobe arrived but there is no bag of screws in the box so i can't build it. order hw-43386. this is ridiculous!!,missing_parts
+C047,2026-10-29,Aisha Khan,HW-84177,Malmo wardrobe,SwiftDrop,"Quick question about the Malmo wardrobe, the instructions don't make sense at step 6. How do I attach the back panel? Order HW-84177",assembly_help
+C048,2026-10-31,Noah Evans,HW-61173,Oslo 3-seater sofa,ParcelPath,Delivery is really late. Where is my Oslo 3-seater sofa? Order HW-61173,late_delivery
+C049,2026-10-31,Noah Evans,HW-96951,Nordic bed frame,SwiftDrop,The Nordic bed frame arrived but there is no bag of screws in the box so I can't build it. Order HW-96951.,missing_parts
+C050,2026-11-01,Maya Patel,HW-99166,Halden bookcase,SwiftDrop,my halden bookcase arrived with a huge crack down one side. order hw-99166. not happy at all,damaged_item
+C051,2026-11-01,Daniel Wright,HW-10464,Oslo 3-seater sofa,SwiftDrop,Delivery is really late. Where is my Oslo 3-seater sofa? Order HW-10464,late_delivery
+C052,2026-11-02,Chloe Bennett,HW-83563,Oslo 3-seater sofa,ParcelPath,"box was crushed when the driver dropped it off and the Oslo 3-seater sofa is badly scratched, order HW-83563",damaged_item
+C053,2026-11-02,Tom Becker,HW-93886,Kensington dining table,ParcelPath,"box was crushed when the driver dropped it off and the Kensington dining table is badly scratched, order HW-93886",damaged_item
+C054,2026-11-02,Aisha Khan,HW-86484,Nordic bed frame,ParcelPath,Opened my Nordic bed frame today and the corner is smashed. I want this sorted. HW-86484,damaged_item
+C055,2026-11-02,Chloe Bennett,HW-64948,Malmo wardrobe,ParcelPath,Delivery is really late. Where is my Malmo wardrobe? Order HW-64948 Honestly furious.,late_delivery
+C056,2026-11-02,Daniel Wright,HW-56357,Malmo wardrobe,ParcelPath,I've unpacked everything and we're short of two side panels for the Malmo wardrobe. Ref HW-56357,missing_parts
+C057,2026-11-02,Liam O'Connor,HW-82140,Linden desk,SwiftDrop,my order is a mess HW-82140,vague
+C058,2026-11-03,Grace Liu,HW-66346,Malmo wardrobe,SwiftDrop,"Hi, the fittings for the Malmo wardrobe aren't in the box. Order HW-66346. Can you send them?",missing_parts
+C059,2026-11-04,Tom Becker,HW-86569,Oslo 3-seater sofa,ParcelPath,The courier keeps rescheduling and I've been waiting in all week for the Oslo 3-seater sofa. Order HW-86569.,late_delivery
+C060,2026-11-05,Sofia Rossi,HW-37869,Kensington dining table,ParcelPath,opened my kensington dining table today and the corner is smashed. i want this sorted. hw-37869,damaged_item
+C061,2026-11-05,Sam Walker,HW-24663,Malmo wardrobe,SwiftDrop,the malmo wardrobe arrived but there is no bag of screws in the box so i can't build it. order hw-24663,missing_parts
+C062,2026-11-05,Chloe Bennett,HW-39816,Halden bookcase,SwiftDrop,"delivery is really late. where is my halden bookcase? order hw-39816 also, i returned my halden bookcase three weeks ago and i still haven't been refunded. order hw-39816",late_delivery|refund_delay
+C063,2026-11-06,Omar Farouk,HW-98259,Oslo 3-seater sofa,SwiftDrop,my oslo 3-seater sofa was meant to arrive on tuesday and there is still no sign of it. order hw-98259. this is the third time i've had to contact you,late_delivery
+C064,2026-11-06,Hannah Meyer,HW-91439,Oslo 3-seater sofa,ParcelPath,I returned my Oslo 3-seater sofa three weeks ago and I still haven't been refunded. Order HW-91439.,refund_delay
+C065,2026-11-06,Daniel Wright,HW-31992,Avery armchair,ParcelPath,You've confirmed my refund for the Avery armchair twice now but I'm still waiting on the money. Order HW-31992.,refund_delay
+C066,2026-11-07,Noah Evans,HW-42098,Kensington dining table,ParcelPath,"box was crushed when the driver dropped it off and the kensington dining table is badly scratched, order hw-42098 it's a wedding gift and the wedding is on saturday",damaged_item
+C067,2026-11-07,Daniel Wright,HW-37460,Kensington dining table,SwiftDrop,The Kensington dining table has been damaged in transit - one panel is snapped. Order number HW-37460. What are you going to do about it?,damaged_item
+C068,2026-11-07,Sofia Rossi,HW-21226,Oslo 3-seater sofa,ParcelPath,Opened my Oslo 3-seater sofa today and the corner is smashed. I want this sorted. HW-21226,damaged_item
+C069,2026-11-07,Omar Farouk,HW-19602,Malmo wardrobe,ParcelPath,Still waiting for my Malmo wardrobe!! it's been over two weeks and tracking hasn't moved. HW-19602 Honestly furious.,late_delivery
+C070,2026-11-07,Jack Turner,HW-78327,Halden bookcase,ParcelPath,this isn't what i ordered. i paid for the halden bookcase and got something else entirely. hw-78327,wrong_item
+C071,2026-11-07,Omar Farouk,HW-50888,Oslo 3-seater sofa,ParcelPath,can someone help me put together the oslo 3-seater sofa? i can't work out which way the shelves go. hw-50888,assembly_help
+C072,2026-11-07,Sofia Rossi,HW-24953,Nordic bed frame,ParcelPath,"My Nordic bed frame arrived with a huge crack down one side. Order HW-24953. Not happy at all. Also, where is my money back? Returned the Nordic bed frame and nothing has hit my account. HW-24953",damaged_item|refund_delay
+C073,2026-11-08,Aisha Khan,HW-76244,Halden bookcase,SwiftDrop,The courier keeps rescheduling and I've been waiting in all week for the Halden bookcase. Order HW-76244.,late_delivery
+C074,2026-11-08,Omar Farouk,HW-98184,Nordic bed frame,SwiftDrop,This isn't what I ordered. I paid for the Nordic bed frame and got something else entirely. HW-98184 Absolutely disgusting service.,wrong_item
+C075,2026-11-09,Zara Ahmed,HW-69929,Halden bookcase,SwiftDrop,Delivery is really late. Where is my Halden bookcase? Order HW-69929,late_delivery

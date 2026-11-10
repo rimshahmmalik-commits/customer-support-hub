@@ -1,0 +1,2 @@
+# Python 3.10+ standard library only. No pip installs needed.
+# Both the offline app and OpenAI HTTP adapter use built-in Python modules.

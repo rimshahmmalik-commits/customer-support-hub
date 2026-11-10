@@ -1,0 +1,19 @@
+.venv/
+.env
+.env.*
+!.env.example
+runtime/
+__pycache__/
+*.pyc
+.DS_Store
+data/generated-complaints.csv
+
+# Local credentials, backups and generated files
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+backups/
+*.pem
+*.key

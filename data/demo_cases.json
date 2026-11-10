@@ -1,0 +1,85 @@
+{
+  "note": "Entirely fictional demo cases. age_hours creates fictional intake dates; no real handling performance is represented. All emails use non-deliverable .invalid addresses.",
+  "cases": [
+    {
+      "customer": "Emma Clarke",
+      "customer_email": "emma.clarke@example.invalid",
+      "product": "Oslo 3-seater sofa",
+      "courier": "ParcelPath",
+      "order_id": "HW-61041",
+      "age_hours": 3,
+      "expected_category": "damaged_item",
+      "message": "My Oslo sofa arrived this morning with a cracked wooden frame and a crushed corner on the box. I have kept the packaging and taken photos. Could you arrange a review of the damage?"
+    },
+    {
+      "customer": "Hassan Ahmed",
+      "customer_email": "hassan.ahmed@example.invalid",
+      "product": "Malmo wardrobe",
+      "courier": "SwiftDrop",
+      "order_id": "HW-61042",
+      "age_hours": 31,
+      "expected_category": "refund_delay",
+      "message": "My Malmo wardrobe was collected for return three weeks ago, but the refund has not reached my account. Please check the refund status. The return reference is RT-2841."
+    },
+    {
+      "customer": "Oliver Bennett",
+      "customer_email": "oliver.bennett@example.invalid",
+      "product": "Nordic bed frame",
+      "courier": "SwiftDrop",
+      "order_id": "HW-61043",
+      "age_hours": 8,
+      "expected_category": "late_delivery",
+      "message": "The Nordic bed frame delivery is late. Tracking has not moved for four days and I am moving house tomorrow. Please check with the courier and tell me the next confirmed update."
+    },
+    {
+      "customer": "Aisha Rahman",
+      "customer_email": "aisha.rahman@example.invalid",
+      "product": "Linden desk",
+      "courier": "ParcelPath",
+      "order_id": "HW-61044",
+      "age_hours": 49,
+      "expected_category": "missing_parts",
+      "message": "The screws and the small bag of fittings are missing from my Linden desk box. I checked all the packaging. Could the parts team check the assembly kit and let me know what is needed?"
+    },
+    {
+      "customer": "Daniel Brooks",
+      "customer_email": "daniel.brooks@example.invalid",
+      "product": "Avery armchair",
+      "courier": "SwiftDrop",
+      "order_id": "HW-61045",
+      "age_hours": 19,
+      "expected_category": "wrong_item",
+      "message": "The Avery armchair is the wrong colour. My order confirmation says forest green, but the chair in the box is cream. I can provide photos of the label and the chair."
+    },
+    {
+      "customer": "Sofia Patel",
+      "customer_email": "sofia.patel@example.invalid",
+      "product": "Halden bookcase",
+      "courier": "ParcelPath",
+      "order_id": "HW-61046",
+      "age_hours": 76,
+      "expected_category": "assembly_help",
+      "message": "I need help with the Halden bookcase assembly instructions. At step six, which way should the rear support bracket face? I have paused assembly until I can confirm."
+    },
+    {
+      "customer": "Grace Wilson",
+      "customer_email": "grace.wilson@example.invalid",
+      "product": "Kensington dining table",
+      "courier": "SwiftDrop",
+      "order_id": "HW-61047",
+      "age_hours": 2,
+      "expected_category": "product_safety",
+      "message": "One leg of the Kensington dining table collapsed during normal use and my partner was hurt. We have stopped using it and kept everyone away. Please escalate this to your product safety team."
+    },
+    {
+      "customer": "Thomas Evans",
+      "customer_email": "thomas.evans@example.invalid",
+      "product": "Brisk coffee table",
+      "courier": "",
+      "order_id": "HW-61048",
+      "age_hours": 27,
+      "expected_category": "unclear",
+      "message": "I contacted someone last week about my coffee table and the issue still is not sorted. Please get back to me and explain what happens next."
+    }
+  ]
+}
