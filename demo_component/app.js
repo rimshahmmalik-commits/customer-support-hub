@@ -239,11 +239,10 @@ $('#gmail-test').addEventListener('click',async()=>{
 
 function enablePublicDemo(){
  document.body.classList.add('demo-public');document.querySelector('#public-demo-banner').hidden=false;
- document.querySelector('#demo-ai-note').textContent=config.key_configured?'Limited live OpenAI requests are available.':'Classification uses the offline rules engine; live OpenAI transcription is not connected.';
+ document.querySelector('#demo-ai-note').textContent=config.key_configured?'Limited OpenAI enabled.':'Offline rules; OpenAI not connected.';
  document.querySelector('.sidebar-foot').innerHTML='<span class="dot"></span> PUBLIC SANDBOX<p>Fictional data · private session<br>Resettable · email preview only</p>';
  document.querySelector('#api-key').value='';document.querySelector('#api-key').disabled=true;
  document.querySelector('#engine option[value="openai"]').disabled=!config.key_configured;
  document.querySelector('#extract-image').disabled=!config.key_configured;
  document.querySelector('#reset-demo').addEventListener('click',async()=>{if(!confirm('Reset your own demo changes and restore the fictional cases?'))return;try{await api('/api/demo/reset',{});location.reload();}catch(e){error(e.message);}});
 }
-

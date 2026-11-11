@@ -17,7 +17,7 @@ No third-party Python packages are required. VS Code launch configurations are i
 
 ## Daily operations
 
-The dark dashboard is the landing page. It shows pending reviews, urgent work, intake ageing, approved drafts, a 14-day activity chart, product counts and investigation signals. Every metric is computed from stored records. The training view remains separate and labelled.
+The light dashboard is the landing page, with the priority review table above the charts. It shows pending reviews, urgent work, intake ageing, approved drafts, a 14-day activity chart, product counts and investigation signals. Every metric is computed from stored records. The training view remains separate and labelled.
 
 - **Complaint desk:** enter the original message, customer email and known order details. Attach PNG/JPEG evidence or extract screenshot text for human checking. Classification creates a pending case.
 - **Review queue:** search by customer, order, case ID or complaint text. Filter by status and urgency. Highest-urgency cases appear first. Check and edit the route and reply before approving or rejecting.
@@ -69,7 +69,7 @@ The model classifies and extracts. Reply text uses controlled templates. Suggest
 
 ## Technical checks
 
-Run `python -m unittest discover -s tests -v` for regression tests and `python scripts/evaluate.py` for the offline evaluation. Results describe synthetic development data, not guaranteed real-world performance. The 54 automated tests use mocked external services. User-run smoke checks demonstrated live OpenAI classification and screenshot transcription on individual examples. These are not a systematic accuracy evaluation. Live Gmail authentication and delivery still require a configured account and a controlled test.
+Run `python -m unittest discover -s tests -v` for regression tests and `python scripts/evaluate.py` for the offline evaluation. Results describe synthetic development data, not guaranteed real-world performance. The 64 automated tests include the public-demo and Streamlit-adapter checks; external services are mocked. User-run smoke checks demonstrated live OpenAI classification and screenshot transcription on individual examples. These are not a systematic accuracy evaluation. Live Gmail authentication and delivery still require a configured account and a controlled test.
 
 Source is organised into `hearthwood/` (business logic), `web/` (interface), `data/` (synthetic fixtures), `tests/`, `scripts/` and `docs/`. Local records are stored in ignored `runtime/`. Never commit `.env`, API credentials or operational databases.
 

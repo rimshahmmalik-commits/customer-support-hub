@@ -64,7 +64,7 @@ Report thresholds are deliberately simple: at least three cases and 1.3× the as
 
 ## Connected workflow revision
 
-The dark dashboard opens first. Browser checks covered its actual metrics, 14 daily bars, training disclosure, investigation drill-through and opening an urgent case. A separate synthetic acceptance database was used, with fictional names, orders and non-deliverable `.invalid` email addresses. Screenshots do not represent real customers or a real support queue.
+The light dashboard opens first. Browser checks covered its actual metrics, 14 daily bars, training disclosure, investigation drill-through and opening an urgent case. A separate synthetic acceptance database was used, with fictional names, orders and non-deliverable `.invalid` email addresses. Screenshots do not represent real customers or a real support queue.
 
 The image upload was attached to a case and remained visible during review. Requesting transcription without an API key produced a clear error. The customer preview used the supplied address only after approval; the department preview used a configured test Finance mailbox. Sending remained disabled because no SMTP connection was supplied. Desktop and 390-pixel mobile checks showed no horizontal page overflow or JavaScript exceptions.
 
@@ -73,3 +73,7 @@ The manager brief is rules-based. No financial ROI, handling-time savings, servi
 ## 11 November 2026 · Screenshot details and Gmail setup
 
 Nine additional tests cover source-backed identity suggestions, ambiguous details, no guessed identities, private Gmail configuration, preserved existing settings, redacted results, invalid input and mocked authentication without sending. User-provided screenshots also showed one successful live OpenAI classification and one screenshot transcription; those observations are smoke checks, not a measured accuracy evaluation. Gmail authentication and delivery still require the user’s private app password and a live test.
+
+## Light workspace refresh - 12 November 2026
+
+64 regression tests passed. Headless Chrome checks covered the priority-first layout, light colour scheme, complaint submission, explicit human approval, customer and department email previews with delivery disabled, fixture-based screenshot-detail confirmation, and 390px mobile overflow. All new screenshots use synthetic records.
